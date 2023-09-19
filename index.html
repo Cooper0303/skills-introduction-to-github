@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <title>Cooper Warner - Personal Portfolio</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="style.css">
 <style>
 </style>
 <script src=""></script>
@@ -24,6 +24,34 @@
   <a href="#about">About</a>
 </div>
 
+<div class="hero-image">
+<div class="hero-text">
+    <h1>Cooper Warner</h1>
+    <p>Currently i'm a second year engineering student at Western University</p>
+    <button>Learn More</button>
+  </div>
+</div>
+
+ body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("IMG_0401.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 </body>
 </html>
 
